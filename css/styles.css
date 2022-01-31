@@ -1,0 +1,90 @@
+html{
+    background-color: cadetblue;
+}
+header h1 {
+    color: orange;
+    text-align: center;
+}
+p {
+    border : 2px solid black;
+    color: green;
+}
+footer p{
+    color: grey;
+}
+.highlight {
+     background-color: darkcyan;
+     color: white;
+}
+.container footer .highlight {
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 940px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+.nav-styles  li{
+    width: 50%;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    border-bottom: none;
+}
+.image-banner{
+    position: relative;
+}
+.banner-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.65);
+    box-sizing: border-box;
+    padding: 10px 15px;
+    width: 95%;
+    z-index: 1;
+}
+img{
+    width: 95%;
+}
+.image-banner img{
+    display: block;
+}
+.nav-styles a{
+    color: white;;
+    text-decoration: none;
+    padding: 10px 20px;
+    float: left;
+    display: block;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.nav-styles a:hover{
+    background-color: green;
+}
+.css-color{
+    color: darkblue;
+    text-align: center;
+}
+.main-area{
+    width: 64%;
+    float: left;
+    box-sizing: border-box;
+}
+.side-area{
+    width: 36%;
+    float: left;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

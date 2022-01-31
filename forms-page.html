@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms page</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="fName">First Name:</label>
+            <input id="fName" type="text" name="firstName">
+        </div>
+        <div>
+            <label for="lName">Last Name:</label>
+            <input id="lName" type="text" name="lastName">
+        </div>
+        <label>First Name:
+            <input type="text" name="firstName">
+        </label>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email">
+        </div>
+        <div>
+            <label for="telNo">Telephone Number:</label>
+            <input id="telNo" type="tel" name="telNo">
+        </div>
+        <div>
+            <label for="msg">Your message here please:</label>
+        </div>
+        <div>
+            <textarea id="msg" name="msg"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <p>Click me to go to <a href="index.html">Home</a>page</p>
+    <div>
+        <label for="favColor">What is your Favorite color?</label>
+        <select id="favRed" name="favColor">
+            <option value="favRed">Red</option>
+            <option value="favYel">Yellow</option>
+            <option value="favBlue">Green</option>
+            <option value="favGreen">Blue</option>
+        </select>
+    </div>
+    <div>
+        <fieldset>
+            <legend>What is your favourite meal?</legend>
+            <input type="radio" name="favoritemeal" id="breakfast" value="meal1"><label for="breakfast">Breakfast</label>
+            <input type="radio" name="favoritemeal" id="brunch" value="meal2"><label for="brunch">Brunch</label>
+            <input type="radio" name="favoritemeal" id="lunch" value="meal3"><label for="lunch">Lunch</label>
+            <input type="radio" name="favoritemeal" id="dinner" value="meal4"><label for="dinner">Dinner</label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>What is your favourite meal?(Choose all that apply)</legend>
+            <input type="checkbox" name="favoritemeal" id="breakfast" value="meal1"><label for="breakfast">Breakfast</label>
+            <input type="checkbox" name="favoritemeal" id="brunch" value="meal2"><label for="brunch">Brunch</label>
+            <input type="checkbox" name="favoritemeal" id="lunch" value="meal3"><label for="lunch">Lunch</label>
+            <input type="checkbox" name="favoritemeal" id="dinner" value="meal4"><label for="dinner">Dinner</label>
+        </fieldset>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Available in Shop</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bread</td>
+                <td>Local1</td>
+                <td>3RS/-</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>Local2</td>
+                <td>5RS/-</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>shops</td>
+                <td>rupees</td>
+                <td>quantity</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
